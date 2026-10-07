@@ -1,0 +1,26 @@
+# Sanal ortamlar ve Python artıkları
+gis-env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Veri (DEM, parseller) ve üretilen raporlar: repoya girmez
+data/
+cikti/
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.aux.xml
+*.ovr
+rapor_*.pdf
+rapor_*.png
+
+# Gizli ayarlar
+.env
